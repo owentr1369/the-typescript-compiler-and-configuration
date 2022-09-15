@@ -1,5 +1,5 @@
-const userName: string = "Max";
+const button = document.querySelector("button") as HTMLButtonElement;
 
-let age: number = 25;
-
-console.log(userName, age);
+button.addEventListener("click", () => {
+  console.log("Click");
+});
