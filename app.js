@@ -1,3 +1,4 @@
 "use strict";
 const userName = "Max";
-console.log(userName);
+let age = 25;
+console.log(userName, age);

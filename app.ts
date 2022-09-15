@@ -1,3 +1,5 @@
 const userName: string = "Max";
 
-console.log(userName);
+let age: number = 25;
+
+console.log(userName, age);
